@@ -1,0 +1,71 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.custom_tab_woocommerce_price_word_character_tab.custom_tab_woocommerce_price_word_character_tab_hidden {
+    display: none !important;
+}
+
+#custom_tab_data_woocommerce_price_word_character_tab #price-breaks-container {
+    padding: 0px 20px;
+}
+
+#custom_tab_data_woocommerce_price_word_character_tab #price-breaks-list {
+    display: none;
+}
+
+#custom_tab_data_woocommerce_price_word_character_tab #price-breaks-list td input {
+    width: 100%;
+}
+
+.angelleye-hidden {
+    display: none;
+}
+
+/**
+  Tools tab css start
+*/
+.ppw_wrap_tools {
+    margin: 0px 0px;
+    width: 99%
+}
+
+.ppw-enable-price-per-words-characters {
+    background: #ffffff;
+    border-left: 5px solid #ffcc00;
+    margin: 10px 0;
+    padding: 0 20px 10px 20px;
+    float: left;
+    width: 100%;
+    max-width: 96%;
+}
+
+.ppw-enable-price-per-words-characters h3 {
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+
+.ppw-tool-bulk-action-section {
+    float: left;
+    margin: 5px 5px 5px 0px;
+}
+
+.ppw-tool-bulk-action-section label {
+    font-weight: bold;
+    margin: 0 0 0 4px !important;
+    line-height: 24px;
+}
+
+.ppw-tool-bulk-action-section #ppw-tool-bulk-submit i.ofwc-spinner {
+    height: 16px;
+    width: 16px;
+    margin-top: 5px;
+    float: left;
+    margin-right: 6px;
+    background: url('../images/spinner.gif') center center !important;
+    background-size: contain !important;
+}
+
+/**
+  Tools tab css end
+*/
